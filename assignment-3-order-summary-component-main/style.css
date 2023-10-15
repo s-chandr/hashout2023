@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image:url("../order-summary-component-main/images/pattern-background-desktop.svg");
+    background-image:url("../assignment-3-order-summary-component-main/images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: auto;
     font-family: 'Red Hat Display', sans-serif; 
@@ -87,7 +87,7 @@ a.cancel-btn:hover {
 
 @media (max-width: 425px) {
     body {
-        background-image: url("../order-summary-component-main/images/pattern-background-mobile.svg");
+        background-image: url("../assignment-3-order-summary-component-main/images/pattern-background-mobile.svg");
         font-size: 14px;
     }
 
