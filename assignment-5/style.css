@@ -1,0 +1,32 @@
+*{
+    padding :0;
+    margin:0;
+}
+#list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none; 
+}
+
+#list li {
+  border: 1px solid black; 
+  padding: 10px; 
+  text-align: center; /* Center the content in each grid item */
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;   
+}
+
+#list img {
+    margin: auto;
+  max-width: 100%; /* Limit the image width to the size of its container */
+  max-height: 100px; /* Set a maximum height for the images */
+}
+#list h3{
+    flex : 1 ; 
+}
+#list p {
+    margin-top: auto; 
+    flex:-1;
+  }
